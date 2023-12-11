@@ -105,7 +105,7 @@ pipeline {
                     playbook    : 'ansible/site.yml',
                     installation: 'ansible',
                     colorized   : true,
-                    credentialsId: 'applogin',
+                    credentialsId: 'app01login',
                     disableHostKeyChecking: true,
                     extraVars   : [
                         USER: "admin",
